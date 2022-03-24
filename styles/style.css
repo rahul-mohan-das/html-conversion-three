@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.container {
+  width: 30%;
+  margin-top: 20vh;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.payment {
+  
+  padding-top: 10px;
+}
+.buy-btn{
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    width:100%;
+}
+.btn-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:20px 0px;
+}
+.features{
+    padding:20px 0px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px;;
+}
+.feature .tick, .feature p{
+    display:inline;
+}
+.tick{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.feature p{
+    margin-left: 10px;
+}

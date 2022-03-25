@@ -5,16 +5,27 @@
 body {
   display: flex;
   justify-content: center;
-  font-family: sans-serif;
-  background-image: linear-gradient(to bottom right,#F3F2FF,#F3F9FF);
+  font-family: Helvetica;
+  font-size: 14px;
+  background-image: linear-gradient(to bottom right, #f3f2ff, #f3f9ff);
+}
+.shadow {
+  margin-top: 30px;
+  border-radius: 30px;
+  z-index: 0;
+  width: 30%;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #e9e8ff, #e5f2fe);
 }
 .container {
-  width: 30%;
-  margin-top: 20vh;
-  box-shadow: 1px 1px 10px black;
-  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  margin-top: 10vh;
+  border-radius: 15px;
   padding: 20px;
   background-color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.199);
 }
 .payment {
   padding-top: 10px;
@@ -24,7 +35,9 @@ body {
   padding: 10px;
   border-radius: 5px;
   width: 100%;
-  background-image: linear-gradient(to bottom right, #5FF48B,#79F5F3);
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #5ff48b, #79f5f3);
+  font-weight: bold;
 }
 .btn-one {
   width: 100%;
@@ -54,13 +67,12 @@ body {
   margin-left: 10px;
 }
 .zip-container {
-  
   border-radius: 5px;
   padding: 10px;
-  background-color: #F3F5FF;
+  background-color: #f3f5ff;
 }
 #zip-input {
-  width: 65%;
+  width: 60%;
   padding: 5px;
   border-radius: 5px;
   border: 2px solid gray;
@@ -70,20 +82,23 @@ body {
   z-index: 0;
 }
 .check {
-  width: 22%;
+  width: 20%;
   border: none;
   border-radius: 5px;
   padding: 9px;
   background-color: rgb(255, 255, 255);
   position: relative;
-  right: 10px
+  right: 10px;
 }
 .pick-up {
   border: none;
   border-radius: 5px;
   width: 100%;
+  height: 50px;
   padding: 10px;
-  margin: 30px 0;background-image: linear-gradient(to bottom right, #9DC3FF,#B4A9FF);
+  margin: 30px 0;
+  background-image: linear-gradient(to bottom right, #9dc3ff, #b4a9ff);
+  font-weight: bold;
 }
 .search-icon {
   width: 20px;
@@ -93,6 +108,10 @@ body {
   top: 5px;
   z-index: 1;
 }
-.fast{
+.fast {
   display: inline;
+  font-weight: bold; 
+}
+.zip{
+  margin:10px 0px;
 }

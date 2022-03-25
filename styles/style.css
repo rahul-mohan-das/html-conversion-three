@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: sans-serif;
+  background-image: linear-gradient(to bottom right,#F3F2FF,#F3F9FF);
 }
 .container {
   width: 30%;
@@ -13,40 +14,85 @@ body {
   box-shadow: 1px 1px 10px black;
   border-radius: 10px;
   padding: 20px;
+  background-color: white;
 }
 .payment {
-  
   padding-top: 10px;
 }
-.buy-btn{
-    border: none;
-    padding:10px;
-    border-radius: 5px;
-    width:100%;
+.buy-btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #5FF48B,#79F5F3);
 }
-.btn-one{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin:20px 0px;
+.btn-one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
 }
-.features{
-    padding:20px 0px;
+.features {
+  padding: 20px 0px;
 }
-.feature{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 0px;;
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0px;
 }
-.feature .tick, .feature p{
-    display:inline;
+.feature .tick,
+.feature p {
+  display: inline;
 }
-.tick{
-    width:30px;
-    height:30px;
-    border-radius: 50%;
+.tick {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
-.feature p{
-    margin-left: 10px;
+.feature p {
+  margin-left: 10px;
+}
+.zip-container {
+  
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #F3F5FF;
+}
+#zip-input {
+  width: 65%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+  right: 20px;
+  z-index: 0;
+}
+.check {
+  width: 22%;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  right: 10px
+}
+.pick-up {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin: 30px 0;background-image: linear-gradient(to bottom right, #9DC3FF,#B4A9FF);
+}
+.search-icon {
+  width: 20px;
+  position: relative;
+  border-radius: 1px;
+  left: 10px;
+  top: 5px;
+  z-index: 1;
+}
+.fast{
+  display: inline;
 }
